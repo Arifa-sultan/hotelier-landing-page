@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #ffa500;
+  }
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .navbar-links a:hover {
+    color: #ffa500;
+  }
+  .btn1{
+    padding: 5px 8px;
+    background-color: #ffa500;
+    color:black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  .btn1:hover{
+    background-color: white;
+    color: #ffa500;
+    cursor: pointer;
+  }

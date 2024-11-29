@@ -1,0 +1,47 @@
+
+.testimonial-slider-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: url('https://via.placeholder.com/1200x800') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .testimonial-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .client-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .client-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .client-title {
+    font-size: 14px;
+    color: #777;
+  }
+  

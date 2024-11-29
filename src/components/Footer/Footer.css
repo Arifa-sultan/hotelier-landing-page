@@ -1,0 +1,57 @@
+.footer {
+    background-color: #0d1321; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-title {
+    color: #ffa500; /* Orange color for the main title */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #bbb; /* Light gray for the text */
+  }
+  
+  .footer-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffa500; /* Orange underline */
+    display: inline-block;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ddd; /* Slightly lighter gray */
+  }
+  
+  .footer-list li:hover {
+    color: #ffa500; /* Orange hover effect */
+    cursor: pointer;
+  }
+  
